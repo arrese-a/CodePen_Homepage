@@ -1,0 +1,91 @@
+.content {
+    background-color: #43454d;
+    box-shadow: inset -57px -174px 168px 25px #0d0f1f;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    color: #ffffffd3;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 1.7em;
+    letter-spacing: 1px;
+    align-items:first baseline;
+    
+}
+
+/* Left column */
+.content-left-column {
+    margin-left: 40px;
+    color: #ceced1;
+}
+
+.content-left-column > .text-content > .big-text {
+    font-size: 2rem;
+}
+
+.content-left-column > .text-content > .big-text strong {
+    color: white;
+}
+
+.content-left-column > .link-boxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.content-left-column > .link-boxes > .sign-up {
+    background-color: #64ff93;
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-right: 20px;
+    color: black;
+}
+
+.content-left-column > .link-boxes > .sign-up a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.content-left-column > .link-boxes > .learn-more {
+    background-color: #1f1e1e;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.content > .content-left-column > .link-boxes > .learn-more a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Right column */
+.content-right-column {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: -10px;
+}
+
+.content-right-column > .right-column-text {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.content-right-column > .right-column-text > .blue-text {
+    margin-left: 4px;
+    color: #6acce7;
+}
+
+.content > .content-right-column img {
+    width: 100%;
+}

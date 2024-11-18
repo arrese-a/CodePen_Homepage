@@ -1,0 +1,26 @@
+@media (max-width: 615px) {
+    .nav-wrapper {
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .nav-wrapper > .nav-center-column {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        margin-left: 100px;
+    }
+
+    .nav-wrapper > .nav-right-column {
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    .content {
+        grid-template-columns: 1fr !important;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

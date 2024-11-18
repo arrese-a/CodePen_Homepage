@@ -1,0 +1,148 @@
+.nav-wrapper {
+    height: 75px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.nav-wrapper > .nav-left-column  img{
+    width: 150px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+/* Center column */
+.nav-center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4px;
+    margin-left: -50px;
+    margin-right: 150px;
+}
+
+.nav-center-column > .center-top-line {
+    color: #dcbf75;
+    font-weight: 600;
+}
+
+.nav-center-column > .center-links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.center-links-wrapper > .nav-link a{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin-right: 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+}
+
+.center-links-wrapper > .nav-link a:hover{
+    color: #dcbf75;
+    letter-spacing: 2px;
+}
+
+.center-links-wrapper > .spark-chevron {   
+    display: flex;
+    align-items: center;
+    color: #8e8e8e;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.center-links-wrapper > .spark-chevron > .spark-button {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+} 
+
+.spark-chevron button::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f078";
+    font-weight: 900;
+}
+.center-links-wrapper > .spark-chevron > .spark-button:active {
+    color: #dcbf75;
+}
+
+/* Right column */
+.nav-right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.nav-right-column > .chavron-create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #43454d;
+    color: inherit;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.nav-right-column > .chavron-create > .create-button {
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+    background-color: transparent;
+    border: transparent;
+}
+
+.chavron-create button::after {
+    font-family: "Font Awesome 5 Free";
+    content: " \f078";
+    font-weight: 900;
+    color: #76d476;
+}
+
+.nav-right-column > .chavron-create > .create-button:active {
+    color: #76d476;
+}
+
+.nav-right-column > .search-button button {
+    background-color: transparent;
+    color: #81848f;
+    border: transparent;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.6em;
+    font-family: inherit;
+    font-weight: inherit;}
+
+.search-button > .btn:active {
+    box-shadow: 5px 5px 30px #c3cacf66;
+}
+
+.nav-right-column > .nav-log {
+    background-color: #43454d;;
+    padding: 15px 25px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.nav-right-column > .nav-log a {
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
